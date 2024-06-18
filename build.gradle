@@ -22,7 +22,7 @@ dependencies {
     //implementation 'org.flywaydb:flyway-core' // Flyway migration tool
     //implementation 'org.flywaydb:flyway-core:8.5.0' // Flyway core library
     //runtimeOnly 'org.postgresql:postgresql:42.2.24' // PostgreSQL JDBC driver
-
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
